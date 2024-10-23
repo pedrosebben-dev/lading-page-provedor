@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2f2325 16.62%, #8e5d52 85.61%);
+}
+
+.cabeçalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabeçalho_imagem {
+    height: 72px;  
+}
+
+.cabeçalho_menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabeçalho_menu_item {
+    font-family: "Press Start 2P", system-ui;
+    color: rgb(203, 224, 7);
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.conteudo {
+    border-top: 0.4px solid rgb(139, 150, 40);
+    margin-bottom: 48px;
+}
+
+.conteudo_principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo_principal_escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo_principal_escrito_titulo {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: rgba(197, 218, 15, 0.63);
+}
+
+.conteudo_principal_escrito_subtitulo {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(197, 218, 15, 0.63);
+}
+
+.conteudo_principal_escrito_botao {
+    background-color: rgba(220, 20, 60, 0.671);
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 4px 5px 4px rgba(148, 241, 54, 0.25);
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: black;
+}
+
+.imagem_logo {
+    height: 350px;
+    padding-top: 36px;
+}
+
+.conteudo_secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo_secundario_titulo {
+    border-top: 0.4px solid rgb(139, 150, 40);
+    padding: 18px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 16px;
+    color: rgba(197, 218, 15, 0.63);
+}
+
+.conteudo_secundario_paragrafo {
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: rgba(197, 218, 15, 0.63);
+}
+
+.rodape {
+    padding: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: rgba(247, 5, 5, 0.986)
+}
